@@ -1,0 +1,6 @@
+node_modules
+dist
+.env
+npm-debug.log*
+frontend/tsconfig.tsbuildinfo
+frontend/tsconfig.tsbuildinfo

@@ -104,20 +104,42 @@ export default function LandingPage() {
           priority
           className="object-cover object-center"
         />
+        <div className="pointer-events-none absolute right-0 top-0 hidden h-full w-[48%] [mask-image:linear-gradient(to_right,transparent_0%,black_38%)] md:block lg:w-[42%]">
+          <Image
+            src="/assets/wexon-hero-player.png"
+            alt=""
+            fill
+            className="object-cover object-[center_16%]"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/35 to-transparent" />
+        </div>
+        <div className="pointer-events-none absolute right-0 top-0 h-[35%] w-[44%] [mask-image:linear-gradient(to_right,transparent_0%,black_38%)] md:hidden">
+          <Image
+            src="/assets/wexon-hero-player.png"
+            alt=""
+            fill
+            className="object-cover object-[center_16%]"
+          />
+          <div className="absolute inset-0 bg-gradient-to-l from-transparent via-primary/20 to-primary/90" />
+          <div className="absolute inset-0 bg-gradient-to-b from-primary/20 via-transparent to-primary/90" />
+        </div>
         <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/85 to-primary/35" />
         <div className="absolute inset-0 bg-gradient-to-t from-primary via-transparent to-primary/25" />
         <div className="relative mx-auto flex min-h-[760px] max-w-7xl items-center px-5 py-28 sm:px-8 lg:px-10">
           <div className="max-w-2xl">
-            <p className="mb-4 text-lg font-black uppercase tracking-[0.28em] text-[#facc15] sm:text-xl">
-              WEXON
-            </p>
+            <div className="mb-4 flex items-start justify-between gap-4">
+              <p className="text-lg font-black uppercase tracking-[0.28em] text-[#facc15] sm:text-xl">
+                WEXON
+              </p>
+              <div aria-hidden="true" className="h-36 w-28 shrink-0 md:hidden" />
+            </div>
             <h1 className="floating-title text-5xl font-black uppercase leading-[1.04] tracking-wide text-white sm:text-6xl lg:text-7xl">
               Formamos jugadores técnicos, creativos y seguros para competir{' '}
               <span className="text-[#facc15]">sin miedo.</span>
             </h1>
             <p className="mt-6 max-w-lg text-base font-medium leading-7 text-white">
               Desarrollamos técnica, confianza y mentalidad mediante entrenamientos especializados
-              con balón para niños de 18 meses a 16 años.
+              con balón para niños de 18 meses a 19 años.
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <Button asChild size="lg" className="h-12 rounded-md bg-black px-6 font-black uppercase text-white hover:bg-black/85 focus-visible:ring-white">
@@ -128,7 +150,7 @@ export default function LandingPage() {
               </Button>
             </div>
             <p className="mt-3 text-xs font-semibold text-white">
-              Evaluación técnica para niños de 18 meses a 16 años.
+              Evaluación técnica para niños de 18 meses a 19 años.
             </p>
           </div>
         </div>

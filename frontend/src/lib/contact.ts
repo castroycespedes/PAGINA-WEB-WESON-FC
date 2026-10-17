@@ -1,7 +1,5 @@
-export const whatsappNumber = '573013420785';
-export const instagramUrl = 'https://www.instagram.com/metodoaristi/';
-export const tiktokUrl = 'https://www.tiktok.com/@metodoaristi';
-export const facebookUrl = 'https://www.facebook.com/dtaristi';
+export const whatsappNumber = '573045420742';
+export const instagramUrl = 'https://www.instagram.com/atwexon/';
 
 export function createWhatsappUrl(message?: string) {
   const baseUrl = `https://api.whatsapp.com/send?phone=${whatsappNumber}`;

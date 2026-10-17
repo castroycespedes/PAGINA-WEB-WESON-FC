@@ -1,33 +1,19 @@
-import { Facebook, Instagram, Music2 } from 'lucide-react';
-import { facebookUrl, instagramUrl, tiktokUrl } from '@/lib/contact';
+import { Instagram } from 'lucide-react';
+import { instagramUrl } from '@/lib/contact';
 
 const socialLinks = [
   {
     href: instagramUrl,
     label: 'Instagram',
-    value: '@metodoaristi',
+    value: '@atwexon',
     icon: Instagram,
     className: 'text-[#E4405F]',
-  },
-  {
-    href: tiktokUrl,
-    label: 'TikTok',
-    value: '@metodoaristi',
-    icon: Music2,
-    className: 'text-primary',
-  },
-  {
-    href: facebookUrl,
-    label: 'Facebook',
-    value: 'WEXON',
-    icon: Facebook,
-    className: 'text-primary',
   },
 ];
 
 export function SocialEntryLinks() {
   return (
-    <div className="grid w-full gap-3 sm:grid-cols-3">
+    <div className="grid gap-3">
       {socialLinks.map((item) => {
         const Icon = item.icon;
 

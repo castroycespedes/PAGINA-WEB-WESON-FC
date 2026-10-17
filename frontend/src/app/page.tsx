@@ -318,15 +318,17 @@ export default function LandingPage() {
               height={52}
               className="h-14 w-14 rounded-md object-cover"
             />
-            <div className="flex flex-col gap-1">
-              <p>2026 WEXON Academia de Tecnificación. Todos los derechos reservados.</p>
+            <p>2026 WEXON Academia de Tecnificación. Todos los derechos reservados.</p>
+          </div>
+          <div className="flex flex-col gap-3 lg:items-end">
+            <SocialEntryLinks />
+            <div className="flex flex-col gap-1 lg:text-right">
               <p className="font-semibold text-white/80">Hecho por Castro y Cespedes Development</p>
               <a className="text-white/70 underline underline-offset-2 hover:text-white" href="mailto:castroycespedes@gmail.com">
                 castroycespedes@gmail.com
               </a>
             </div>
           </div>
-          <SocialEntryLinks />
         </div>
       </footer>
       <a

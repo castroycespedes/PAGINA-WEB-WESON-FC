@@ -54,7 +54,7 @@ export function ImageCarousel({
               fill
               priority={priority && index === 0}
               sizes="(min-width: 768px) 33vw, 100vw"
-              className={cn('object-cover', imageClassName)}
+              className={cn('object-cover', index % total === 1 && 'object-top', imageClassName)}
             />
           </div>
         ))}
@@ -65,7 +65,7 @@ export function ImageCarousel({
             type="button"
             aria-label="Imagen anterior"
             onClick={() => move(-1)}
-            className="absolute left-4 top-1/2 z-20 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full border border-primary/50 bg-black/45 text-primary transition hover:border-primary hover:bg-primary/15"
+            className="absolute left-4 top-1/2 z-20 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full border border-primary bg-primary text-white transition hover:bg-black focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2"
           >
             <ChevronLeft className="h-5 w-5" />
           </button>
@@ -73,7 +73,7 @@ export function ImageCarousel({
             type="button"
             aria-label="Imagen siguiente"
             onClick={() => move(1)}
-            className="absolute right-4 top-1/2 z-20 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full border border-primary/50 bg-black/45 text-primary transition hover:border-primary hover:bg-primary/15"
+            className="absolute right-4 top-1/2 z-20 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full border border-primary bg-primary text-white transition hover:bg-black focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2"
           >
             <ChevronRight className="h-5 w-5" />
           </button>
@@ -85,8 +85,8 @@ export function ImageCarousel({
                 aria-label={`Ver imagen ${index + 1}`}
                 onClick={() => setActive(index)}
                 className={cn(
-                  'h-2.5 rounded-full border border-primary/70 transition-all',
-                  index === active ? 'w-7 bg-primary' : 'w-2.5 bg-black/45 hover:bg-primary/60',
+                  'h-2.5 rounded-full border border-primary transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary',
+                  index === active ? 'w-7 bg-primary' : 'w-2.5 bg-white hover:bg-primary/20',
                 )}
               />
             ))}

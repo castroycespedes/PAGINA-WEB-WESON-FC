@@ -108,14 +108,14 @@ export default function LandingPage() {
         <div className="absolute inset-0 bg-gradient-to-t from-primary via-transparent to-primary/25" />
         <div className="relative mx-auto flex min-h-[760px] max-w-7xl items-center px-5 py-28 sm:px-8 lg:px-10">
           <div className="max-w-2xl">
-            <p className="mb-4 text-lg font-black uppercase tracking-[0.28em] text-white sm:text-xl">
+            <p className="mb-4 text-lg font-black uppercase tracking-[0.28em] text-[#facc15] sm:text-xl">
               WEXON
             </p>
-            <h1 className="floating-title text-5xl font-black uppercase leading-[1.04] tracking-wide text-black sm:text-6xl lg:text-7xl">
+            <h1 className="floating-title text-5xl font-black uppercase leading-[1.04] tracking-wide text-white sm:text-6xl lg:text-7xl">
               Formamos jugadores técnicos, creativos y seguros para competir{' '}
-              <span className="text-white">sin miedo.</span>
+              <span className="text-[#facc15]">sin miedo.</span>
             </h1>
-            <p className="mt-6 max-w-lg text-base font-medium leading-7 text-black/85">
+            <p className="mt-6 max-w-lg text-base font-medium leading-7 text-white">
               Desarrollamos técnica, confianza y mentalidad mediante entrenamientos especializados
               con balón para niños de 18 meses a 16 años.
             </p>
@@ -165,24 +165,24 @@ export default function LandingPage() {
         </div>
       </section>
 
-      <section id="metodo" className="overflow-hidden bg-primary text-black">
+      <section id="metodo" className="overflow-hidden bg-primary text-white">
         <div className="mx-auto grid max-w-7xl items-stretch lg:min-h-[620px] lg:grid-cols-[0.9fr_1.1fr]">
           <div className="flex flex-col justify-center px-5 py-16 sm:px-8 lg:px-10">
-            <p className="text-sm font-black uppercase tracking-[0.28em] text-white sm:text-base">
+            <p className="text-sm font-black uppercase tracking-[0.28em] text-[#facc15] sm:text-base">
               Nuestro método
             </p>
-            <h2 className="mt-3 max-w-xl text-4xl font-black uppercase leading-[1.08] tracking-wide text-black sm:text-5xl">
+            <h2 className="mt-3 max-w-xl text-4xl font-black uppercase leading-[1.08] tracking-wide text-white sm:text-5xl">
               Más que entrenamientos, formamos jugadores que juegan{' '}
-              <span className="text-white">sin miedo.</span>
+              <span className="text-[#facc15]">sin miedo.</span>
             </h2>
-            <p className="mt-5 max-w-lg text-sm font-semibold leading-6 text-black/80">
+            <p className="mt-5 max-w-lg text-sm font-semibold leading-6 text-white">
               Nuestro enfoque combina técnica, creatividad, inteligencia de juego y mentalidad
               para desarrollar jugadores completos dentro y fuera de la cancha.
             </p>
             <ul className="mt-6 space-y-3">
               {methodItems.map((item) => (
-                <li key={item} className="flex items-center gap-3 text-sm font-bold text-black">
-                  <Sparkles className="h-4 w-4 text-black" />
+                <li key={item} className="flex items-center gap-3 text-sm font-bold text-white">
+                  <Sparkles className="h-4 w-4 text-white" />
                   {item}
                 </li>
               ))}
@@ -237,7 +237,7 @@ export default function LandingPage() {
 
       <section id="testimonios" className="bg-primary px-5 py-16 text-white sm:px-8 lg:px-10">
         <div className="mx-auto max-w-7xl">
-          <p className="text-center text-xs font-black uppercase tracking-[0.32em] text-white">
+          <p className="text-center text-xs font-black uppercase tracking-[0.32em] text-[#facc15]">
             Lo que dicen los padres
           </p>
           <h2 className="mt-3 text-center text-3xl font-black uppercase leading-[1.08] tracking-wide">
@@ -267,7 +267,7 @@ export default function LandingPage() {
 
       <section id="galeria" className="bg-white px-5 py-14 text-primary sm:px-8 lg:px-10">
         <div className="mx-auto max-w-7xl">
-          <p className="text-center text-xs font-black uppercase tracking-[0.32em] text-primary">
+          <p className="text-center text-xs font-black uppercase tracking-[0.32em] text-[#facc15]">
             Ver es creer
           </p>
           <h2 className="floating-title mt-3 text-center text-3xl font-black uppercase leading-[1.08] tracking-wide text-primary">
@@ -291,7 +291,7 @@ export default function LandingPage() {
           <div className="max-w-2xl">
             <h2 className="floating-title text-4xl font-black uppercase leading-[1.14] tracking-wide text-black sm:text-5xl">
               Tu hijo puede jugar con más técnica,{' '}
-              <span className="inline-block pt-1 text-primary">confianza y valentía.</span>
+              <span className="inline-block pt-1 text-[#facc15]">confianza y valentía.</span>
             </h2>
             <p className="mt-4 max-w-lg text-sm font-semibold leading-6 text-black/80">
               Agenda hoy su evaluación técnica y da el primer paso hacia su mejor versión.

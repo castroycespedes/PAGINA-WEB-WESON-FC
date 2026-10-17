@@ -126,7 +126,7 @@ export default function LandingPage() {
             </h1>
             <p className="mt-6 max-w-lg text-base font-medium leading-7 text-white">
               Desarrollamos técnica, confianza y mentalidad mediante entrenamientos especializados
-              con balón para niños de 18 meses a 19 años.
+              con balón para niños y jóvenes de 18 meses a 19 años.
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <Button asChild size="lg" className="h-12 rounded-md bg-black px-6 font-black uppercase text-white hover:bg-black/85 focus-visible:ring-white">
@@ -137,7 +137,7 @@ export default function LandingPage() {
               </Button>
             </div>
             <p className="mt-3 text-xs font-semibold text-white">
-              Evaluación técnica para niños de 18 meses a 19 años.
+              Evaluación técnica para niños y jóvenes de 18 meses a 19 años.
             </p>
           </div>
         </div>

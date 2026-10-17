@@ -8,8 +8,8 @@ const bebasNeue = Bebas_Neue({ subsets: ['latin'], weight: '400', variable: '--f
 const oswald = Oswald({ subsets: ['latin'], variable: '--font-oswald' });
 
 export const metadata: Metadata = {
-  title: 'Método Aristi',
-  description: 'Academia de tecnificación Método Aristi',
+  title: 'WEXON',
+  description: 'Academia de tecnificación WEXON',
 };
 
 export default function RootLayout({

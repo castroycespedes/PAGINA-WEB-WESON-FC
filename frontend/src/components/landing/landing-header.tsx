@@ -97,14 +97,14 @@ function Brand({ onClick }: { onClick?: () => void }) {
   return (
     <Link href="/" onClick={onClick} className="flex items-center gap-3">
       <Image
-        src="/assets/metodo-aristi-logo.jpeg"
-        alt="Método Aristi"
+        src="/assets/wexon-logo.png"
+        alt="WEXON"
         width={48}
         height={48}
         className="h-12 w-12 rounded-md object-cover"
       />
       <div>
-        <p className="text-xl font-black uppercase leading-none">Método Aristi</p>
+        <p className="text-xl font-black uppercase leading-none">WEXON</p>
         <p className="text-[10px] font-bold uppercase tracking-[0.22em] text-white/70">
           Academia de tecnificación
         </p>

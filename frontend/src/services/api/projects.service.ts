@@ -3,7 +3,7 @@ import type { Project } from '@/types/domain';
 export const projects: Project[] = [
   {
     id: 'project-1',
-    name: 'Metodo Aristi',
+    name: 'WEXON',
     key: 'TF',
     description: 'Core SaaS workspace, auth and Kanban experience.',
     status: 'active',

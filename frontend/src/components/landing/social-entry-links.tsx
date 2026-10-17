@@ -19,9 +19,9 @@ const socialLinks = [
   {
     href: facebookUrl,
     label: 'Facebook',
-    value: 'Método Aristi',
+    value: 'WEXON',
     icon: Facebook,
-    className: 'text-[#1877F2]',
+    className: 'text-primary',
   },
 ];
 

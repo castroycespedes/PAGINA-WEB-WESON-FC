@@ -30,7 +30,7 @@ export function Sidebar({ onNavigate }: { onNavigate?: () => void }) {
           <BarChart3 className="h-5 w-5" />
         </div>
         <div>
-          <p className="text-sm font-semibold leading-none">Metodo Aristi</p>
+          <p className="text-sm font-semibold leading-none">WEXON</p>
           <p className="text-xs text-muted-foreground">Sistema interno</p>
         </div>
       </div>

@@ -81,41 +81,16 @@ const testimonials = [
 ];
 
 const galleryImages = [
-  '/assets/metodo-aristi-gallery-1.jpeg',
-  '/assets/metodo-aristi-gallery-2.jpeg',
-  '/assets/metodo-aristi-gallery-3.jpeg',
-  '/assets/metodo-aristi-gallery-4.jpeg',
-  '/assets/metodo-aristi-gallery-5.jpeg',
-  '/assets/metodo-aristi-carousel-01.jpeg',
-  '/assets/metodo-aristi-carousel-02.jpeg',
-  '/assets/metodo-aristi-carousel-03.jpeg',
-  '/assets/metodo-aristi-carousel-04.jpeg',
-  '/assets/metodo-aristi-carousel-05.jpeg',
-  '/assets/metodo-aristi-carousel-06.jpeg',
-  '/assets/metodo-aristi-carousel-07.jpeg',
-  '/assets/metodo-aristi-carousel-08.jpeg',
-  '/assets/metodo-aristi-carousel-09.jpeg',
-  '/assets/metodo-aristi-carousel-10.jpeg',
-  '/assets/metodo-aristi-carousel-11.jpeg',
-  '/assets/metodo-aristi-carousel-12.jpeg',
-  '/assets/metodo-aristi-carousel-13.jpeg',
-  '/assets/metodo-aristi-carousel-14.jpeg',
-  '/assets/metodo-aristi-carousel-15.jpeg',
-  '/assets/metodo-aristi-carousel-16.jpeg',
-  '/assets/metodo-aristi-carousel-17.jpeg',
-  '/assets/metodo-aristi-carousel-18.jpeg',
-  '/assets/metodo-aristi-carousel-19.jpeg',
-  '/assets/metodo-aristi-carousel-20.jpeg',
-  '/assets/metodo-aristi-carousel-21.jpeg',
-  '/assets/metodo-aristi-carousel-22.jpeg',
-  '/assets/metodo-aristi-carousel-23.jpeg',
-  '/assets/metodo-aristi-carousel-24.jpeg',
-  '/assets/metodo-aristi-carousel-25.jpeg',
-  '/assets/metodo-aristi-carousel-26.jpeg',
-  '/assets/metodo-aristi-carousel-27.jpeg',
-  '/assets/metodo-aristi-carousel-28.jpeg',
-  '/assets/metodo-aristi-carousel-29.jpeg',
-  '/assets/metodo-aristi-carousel-30.jpeg',
+  '/assets/wexon-carousel-01.jpeg',
+  '/assets/wexon-carousel-02.jpeg',
+  '/assets/wexon-carousel-03.jpeg',
+  '/assets/wexon-carousel-04.jpeg',
+  '/assets/wexon-carousel-05.jpeg',
+  '/assets/wexon-carousel-06.jpeg',
+  '/assets/wexon-carousel-07.jpeg',
+  '/assets/wexon-carousel-08.jpeg',
+  '/assets/wexon-carousel-09.jpeg',
+  '/assets/wexon-carousel-10.jpeg',
 ];
 
 export default function LandingPage() {
@@ -124,8 +99,8 @@ export default function LandingPage() {
       <LandingHeader />
       <section className="relative min-h-[760px] overflow-hidden">
         <Image
-          src="/assets/metodo-aristi-hero.jpeg"
-          alt="Entrenamiento Método Aristi"
+          src="/assets/wexon-hero.jpeg"
+          alt="Entrenamiento WEXON"
           fill
           priority
           className="object-cover object-center"
@@ -135,7 +110,7 @@ export default function LandingPage() {
         <div className="relative mx-auto flex min-h-[760px] max-w-7xl items-center px-5 py-28 sm:px-8 lg:px-10">
           <div className="max-w-2xl">
             <p className="mb-4 text-lg font-black uppercase tracking-[0.28em] text-primary sm:text-xl">
-              Método Aristi
+              WEXON
             </p>
             <h1 className="floating-title text-5xl font-black uppercase leading-[1.04] tracking-wide sm:text-6xl lg:text-7xl">
               Formamos jugadores técnicos, creativos y seguros para competir{' '}
@@ -160,7 +135,7 @@ export default function LandingPage() {
         </div>
       </section>
 
-      <section className="border-y border-white/10 bg-[#0B1220] px-5 py-14 sm:px-8 lg:px-10">
+      <section className="border-y border-white/10 bg-white px-5 py-14 text-primary sm:px-8 lg:px-10">
         <div className="mx-auto max-w-7xl text-center">
           <p className="text-xs font-black uppercase tracking-[0.32em] text-primary">
             Entendemos lo que vives
@@ -177,7 +152,7 @@ export default function LandingPage() {
                   <div className="flex h-16 w-16 items-center justify-center rounded-full border border-primary/35 bg-primary/5 shadow-[0_0_22px_hsl(var(--primary)/0.10)]">
                     <Icon className="h-8 w-8 text-primary" strokeWidth={1.8} />
                   </div>
-                  <p className="max-w-36 text-sm font-semibold leading-5 text-white/80">
+                  <p className="max-w-36 text-sm font-semibold leading-5 text-primary/80">
                     {problem.title}
                   </p>
                 </div>
@@ -221,8 +196,8 @@ export default function LandingPage() {
           </div>
           <div className="relative min-h-[420px] lg:min-h-[620px]">
             <Image
-              src="/assets/metodo-aristi-method.jpeg"
-              alt="Equipo Método Aristi"
+              src="/assets/wexon-method.jpeg"
+              alt="Equipo WEXON"
               fill
               className="object-cover object-center"
             />
@@ -300,15 +275,15 @@ export default function LandingPage() {
             Ellos ya juegan sin miedo
           </h2>
           <div className="mt-8 h-72 overflow-hidden md:h-64">
-            <ImageCarousel images={galleryImages} alt="Galería de entrenamientos Método Aristi" />
+            <ImageCarousel images={galleryImages} alt="Galería de entrenamientos WEXON" />
           </div>
         </div>
       </section>
 
       <section id="contacto" className="relative overflow-hidden border-t border-white/10">
         <Image
-          src="/assets/metodo-aristi-contact.jpeg"
-          alt="Evaluación técnica Método Aristi"
+          src="/assets/wexon-contact.jpeg"
+          alt="Evaluación técnica WEXON"
           fill
           className="object-cover object-center"
         />
@@ -337,13 +312,13 @@ export default function LandingPage() {
         <div className="mx-auto flex max-w-7xl flex-col gap-5 lg:flex-row lg:items-center lg:justify-between">
           <div className="flex items-center gap-3">
             <Image
-              src="/assets/metodo-aristi-logo.jpeg"
-              alt="Método Aristi"
+              src="/assets/wexon-logo.png"
+              alt="WEXON"
               width={52}
               height={52}
               className="h-14 w-14 rounded-md object-cover"
             />
-            <p>2026 Método Aristi Academia de Tecnificación. Todos los derechos reservados.</p>
+            <p>2026 WEXON Academia de Tecnificación. Todos los derechos reservados.</p>
           </div>
           <SocialEntryLinks />
         </div>

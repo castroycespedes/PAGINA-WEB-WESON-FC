@@ -94,8 +94,8 @@ export function LandingHeader() {
                     aria-current={activeSection === item.href ? 'location' : undefined}
                     className={`rounded-md px-3 py-3 transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white ${
                       activeSection === item.href
-                        ? 'bg-white text-black'
-                        : 'text-white hover:bg-white/90 hover:text-black'
+                        ? 'bg-white/10 text-[#facc15]'
+                        : 'text-[#facc15] hover:bg-white/90 hover:text-black'
                     }`}
                   >
                     {item.label}
@@ -106,7 +106,7 @@ export function LandingHeader() {
                   target="_blank"
                   rel="noreferrer"
                   onClick={() => setOpen(false)}
-                  className="flex min-h-11 w-fit max-w-full self-start items-center gap-2 rounded-md px-3 py-2 text-white transition hover:bg-black/20 hover:text-black focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+                  className="flex min-h-11 w-fit max-w-full self-start items-center gap-2 rounded-md px-3 py-2 text-[#facc15] transition hover:bg-white/90 hover:text-black focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
                 >
                   <Instagram className="h-4 w-4" />
                   Instagram

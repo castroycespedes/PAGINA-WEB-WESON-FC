@@ -7,13 +7,12 @@ const socialLinks = [
     label: 'Instagram',
     value: '@atwexon',
     icon: Instagram,
-    className: 'text-[#E4405F]',
   },
 ];
 
 export function SocialEntryLinks() {
   return (
-    <div className="grid gap-3">
+    <div className="grid w-fit max-w-full gap-3">
       {socialLinks.map((item) => {
         const Icon = item.icon;
 
@@ -23,15 +22,15 @@ export function SocialEntryLinks() {
             href={item.href}
             target="_blank"
             rel="noreferrer"
-            className="group flex items-center gap-3 border border-primary/70 bg-primary/5 px-4 py-3 text-white transition hover:border-primary hover:bg-primary/15 hover:shadow-[0_0_22px_hsl(var(--primary)/0.22)]"
+            className="group flex max-w-full items-center gap-2 rounded-md border border-[#d6249f] bg-[radial-gradient(circle_at_30%_110%,#fdf497_0%,#fdf497_12%,#fd5949_38%,#d6249f_62%,#285AEB_100%)] px-3 py-2 text-white transition hover:brightness-110 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-primary"
             aria-label={item.label}
           >
-            <Icon className={`h-7 w-7 shrink-0 transition group-hover:scale-110 ${item.className}`} />
+            <Icon className="h-5 w-5 shrink-0 transition group-hover:scale-105" />
             <span className="min-w-0">
-              <span className="block text-[10px] font-black uppercase tracking-[0.22em] text-white/50 group-hover:text-primary/80">
+              <span className="block text-[9px] font-black uppercase tracking-[0.18em] text-white/90">
                 {item.label}
               </span>
-              <span className="block truncate text-sm font-black">{item.value}</span>
+              <span className="block truncate text-xs font-black">{item.value}</span>
             </span>
           </a>
         );
